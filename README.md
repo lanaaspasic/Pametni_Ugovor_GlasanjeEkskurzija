@@ -6,7 +6,6 @@ Korisnici mogu glasati za jednu od četiri ponuđene destinacije (Prag, Pariz, A
 - `glasaj(destinacijaID)` —> Slanje glasa za destinaciju korišćenjem ID broja (0 do 3).
 - `dobijRezultate()` —> Vraća niz sa trenutnim brojem glasova za sve četiri destinacije.
 - `dobijDestinacije()` —> Vraća nazive svih destinacija unetih u sistem.
-- `jeGlasao(address)` —> Provera da li je određena adresa već iskoristila svoje pravo glasa.
 - `resetujGlasanje()` —> Samo vlasnik (Owner only) može resetovati broj glasova na nulu.
 ## Razvoj (Development)
 Ugovor je razvijen i testiran u Remix IDE okruženju koristeći verziju Solidity 0.8.x
